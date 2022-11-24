@@ -10,10 +10,10 @@
 //
 #include <stdio.h>
 
-#include "LCD.h"
 #include "MCU_init.h"
 #include "NUC100Series.h"
 #include "SYS_init.h"
+#include "LCD.h"
 #include "Scankey.h"
 
 unsigned char leftMap[] = {
