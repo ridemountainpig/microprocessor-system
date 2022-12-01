@@ -9,11 +9,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "LCD.h"
 #include "MCU_init.h"
 #include "NUC100Series.h"
 #include "SYS_init.h"
 #include "Scankey.h"
+#include "LCD.h"
 
 void Init_UART(void) {
   UART_Open(UART0, 9600);  // set UART0 baud rate
