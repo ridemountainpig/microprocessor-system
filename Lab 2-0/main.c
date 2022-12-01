@@ -89,8 +89,8 @@ void display(int pc, int number, int delay) {
       PE3 = 1;
       PE2 = 1;
       PE7 = 1;
-      PE6 = 1;
       PE0 = 1;
+      PE5 = 1;
       break;
     case 6:
       PE3 = 0;
